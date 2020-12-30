@@ -1,0 +1,207 @@
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'görli_hdwallet_infura-fork'
+> Network id:      5
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > block number:        4011617
+   > block timestamp:     1609247065
+   > account:             0xfC94f970BF72ad344FF817176eeeB8516Ebd1836
+   > balance:             0.14671241994144173
+   > gas used:            149379 (0x24783)
+   > gas price:           0.000000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000000149379 ETH
+
+   -------------------------------------
+   > Total cost:     0.000000000000149379 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'CovidTkn'
+   --------------------
+   > block number:        4011619
+   > block timestamp:     1609247079
+   > account:             0xfC94f970BF72ad344FF817176eeeB8516Ebd1836
+   > balance:             0.146712419940382876
+   > gas used:            1031513 (0xfbd59)
+   > gas price:           0.000000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000001031513 ETH
+
+
+   Deploying 'KycContract'
+   -----------------------
+   > block number:        4011620
+   > block timestamp:     1609247088
+   > account:             0xfC94f970BF72ad344FF817176eeeB8516Ebd1836
+   > balance:             0.146712419939875968
+   > gas used:            506908 (0x7bc1c)
+   > gas price:           0.000000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000000506908 ETH
+
+
+   Deploying 'CovidTknSale'
+   ------------------------
+   > block number:        4011621
+   > block timestamp:     1609247099
+   > account:             0xfC94f970BF72ad344FF817176eeeB8516Ebd1836
+   > balance:             0.146712419939123646
+   > gas used:            752322 (0xb7ac2)
+   > gas price:           0.000000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000000752322 ETH
+
+   -------------------------------------
+   > Total cost:     0.000000000002290743 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.000000000002440122 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'görli_hdwallet_infura'
+> Network id:      5
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x2daef56fb18dd86bbaf2053861d634e6af41cc56d42e7bcc4941bda5f4d2acab
+   > Blocks: 2            Seconds: 24
+   > contract address:    0xa8fBc6ad5B56eDa6e42722d00eaB83c5818066DF
+   > block number:        4011620
+   > block timestamp:     1609247130
+   > account:             0xfC94f970BF72ad344FF817176eeeB8516Ebd1836
+   > balance:             0.14671241994142673
+   > gas used:            164379 (0x2821b)
+   > gas price:           0.000000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000000164379 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000000000000164379 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'CovidTkn'
+   --------------------
+   > transaction hash:    0xdfdc6d6d55616cd45f5bffa0c6a799c7295b91a276f651c2d3d7b428b476b7e0
+   > Blocks: 3            Seconds: 44
+   > contract address:    0xcc7193eA44b88Fc93A8Ec527d8Cf992F1dA55823
+   > block number:        4011626
+   > block timestamp:     1609247220
+   > account:             0xfC94f970BF72ad344FF817176eeeB8516Ebd1836
+   > balance:             0.146712419940292876
+   > gas used:            1091513 (0x10a7b9)
+   > gas price:           0.000000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000001091513 ETH
+
+
+   Deploying 'KycContract'
+   -----------------------
+   > transaction hash:    0x107677a800b71b3db77ba697e71ccc1de8f90b458b43741bb7754223c642ee6e
+   > Blocks: 1            Seconds: 20
+   > contract address:    0x73B38BD9a5e82f170B5d62959fB3D1339A55EeDa
+   > block number:        4011628
+   > block timestamp:     1609247250
+   > account:             0xfC94f970BF72ad344FF817176eeeB8516Ebd1836
+   > balance:             0.146712419939770968
+   > gas used:            521908 (0x7f6b4)
+   > gas price:           0.000000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000000521908 ETH
+
+
+   Deploying 'CovidTknSale'
+   ------------------------
+   > transaction hash:    0x3e16c55705ff708df90f14bb2b9cf3b79410d5e45c3558346750e461e831a6e4
+   > Blocks: 2            Seconds: 40
+   > contract address:    0x45b4aB3c98Ea98827DbE18f1666d6C4E797c7EDd
+   > block number:        4011631
+   > block timestamp:     1609247295
+   > account:             0xfC94f970BF72ad344FF817176eeeB8516Ebd1836
+   > balance:             0.146712419938958646
+   > gas used:            812322 (0xc6522)
+   > gas price:           0.000000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000000812322 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000000000002425743 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.000000000002590122 ETH
+
+
+-------------------------------------------------------------
+
+connect with truffle console to göerli
+
+instancaite contracts with
+CovidTknInstance = new web3.eth.Contract('[{"inputs":[{"internalType":"uint256","name":"initialSupply","type":"uint256"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event","signature":"0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event","signature":"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function","constant":true,"signature":"0xdd62ed3e"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function","signature":"0x095ea7b3"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x70a08231"},{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x313ce567"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function","signature":"0xa457c2d7"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function","signature":"0x39509351"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x06fdde03"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x95d89b41"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x18160ddd"},{"inputs":[{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function","signature":"0xa9059cbb"},{"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function","signature":"0x23b872dd"}]', '0xcc7193eA44b88Fc93A8Ec527d8Cf992F1dA55823')
+
+CovidTknSaleInstance = new web3.eth.Contract('[{"inputs":[{"internalType":"uint256","name":"rate","type":"uint256"},{"internalType":"address payable","name":"wallet","type":"address"},{"internalType":"contract IERC20","name":"token","type":"address"},{"internalType":"contract KycContract","name":"_kyc","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"purchaser","type":"address"},{"indexed":true,"internalType":"address","name":"beneficiary","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"TokensPurchased","type":"event","signature":"0x6faf93231a456e552dbc9961f58d9713ee4f2e69d15f1975b050ef0911053a7b"},{"inputs":[{"internalType":"address","name":"beneficiary","type":"address"}],"name":"buyTokens","outputs":[],"stateMutability":"payable","type":"function","payable":true,"signature":"0xec8ac4d8"},{"inputs":[],"name":"rate","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x2c4e722e"},{"inputs":[],"name":"token","outputs":[{"internalType":"contract IERC20","name":"","type":"address"}],"stateMutability":"view","type":"function","constant":true,"signature":"0xfc0c546a"},{"inputs":[],"name":"wallet","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x521eb273"},{"inputs":[],"name":"weiRaised","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x4042b66f"},{"stateMutability":"payable","type":"receive","payable":true}]', '0x45b4aB3c98Ea98827DbE18f1666d6C4E797c7EDd')
+
+KycContractInstance = new web3.eth.Contract([{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event","signature":"0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0"},{"inputs":[],"name":"isOwner","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x8f32d59b"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x8da5cb5b"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function","signature":"0x715018a6"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function","signature":"0xf2fde38b"},{"inputs":[{"internalType":"address","name":"addr","type":"address"}],"name":"setKycCompleted","outputs":[],"stateMutability":"nonpayable","type":"function","signature":"0x70c9aedd"},{"inputs":[{"internalType":"address","name":"addr","type":"address"}],"name":"setKycRevoked","outputs":[],"stateMutability":"nonpayable","type":"function","signature":"0xdc3958cc"},{"inputs":[{"internalType":"address","name":"addr","type":"address"}],"name":"KycCompleted","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function","constant":true,"signature":"0x2eb10fde"}], '0x73B38BD9a5e82f170B5d62959fB3D1339A55EeDa')
+
+
+owner_address = "0xfC94f970BF72ad344FF817176eeeB8516Ebd1836"
+other_address = "0x70dea4b07C0CDd551542238e297E44a7fe84e74d"
+target_address = "0x7B6aF8bAC5B1B056568b7f4F9d17B559d13D730d"
+
+check balance
+await CovidTknInstance.methods.balanceOf(other_address).call() != 0
+await CovidTknInstance.methods.balanceOf(owner_address).call() -> 0
+
+
+whitelist address
+await KycContractInstance.methods.setKycCompleted(target_address).send({from: owner_address})
+
+buy 1 token
+await CovidTknSaleInstance.methods.buyTokens(target_address).send({from: target_address, value: web3.utils.toWei("1", "Wei") })
+
+
+sample
+
+await CovidTknInstance.methods.balanceOf("0x0204ED10e1F8Cb559D5E2819454C6F68f98680eF").call()
+await KycContractInstance.methods.setKycCompleted("0x0204ED10e1F8Cb559D5E2819454C6F68f98680eF").send({from: "0xfC94f970BF72ad344FF817176eeeB8516Ebd1836"})
+await CovidTknSaleInstance.methods.buyTokens("0x0204ED10e1F8Cb559D5E2819454C6F68f98680eF").send({from:"0x0204ED10e1F8Cb559D5E2819454C6F68f98680eF", value: web3.utils.toWei("1", "Wei") })
+await CovidTknInstance.methods.balanceOf("0x0204ED10e1F8Cb559D5E2819454C6F68f98680eF").call()
